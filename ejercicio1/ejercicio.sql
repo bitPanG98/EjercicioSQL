@@ -15,8 +15,8 @@ BEGIN
 			mat.id_Material, mat.Nombre_Material,
 			tipma.tipo
 		FROM SemestreAcademico semaca,
-			Material mat,
-			TipoMaterial tipma 
+			Material mat
+			INNER JOIN TipoMaterial tipma ON mat.id_tipo=tipma.id_tipo
 		WHERE 
 			(MONTH(CURDATE())=MONTH(semaca.FechaInicio)
 			AND tipma.tipo='Plumones'
