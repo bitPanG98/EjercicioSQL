@@ -1,0 +1,29 @@
+Hola amigos aquel q responda conrrectamente esta pregunta se gana el sistema de este diseño lógico a un 65% desarrollado
+
+Pregunta:
+Hla amigos , una tarea para ustedes , como es q harian ustedes esta pregunta una vez creado la base de datos de ese diseño lógico.
+¿ Como harian para q al momento de q se empiece a hacer las entregas de materiales Docentes muestre aquellos materiales de plumones y motas a partir del primer mes del semestre académico y a partir del segundo mes muestre los demas tipo de materiales como recargas de plumones y otros y q solo se pueda entregar 3 plumones de diferente color y una mota en el primer mes del semestre.
+
+aquella persona q responde esta pregunta se gana este sistema a un 65% desarrollado.
+
+Tomar en cuenta q las entregas se realizan cuando la fecha de inicio del semestre inicia osea supongamos q mañana inicia el semestre, entobces ese día deveria de activarse la opción entrega, y cuándo culmine debe de desactivarse y pedirte q registres otro semestre automaticamente
+
+Todo ello apartir de este diseño, dejen sus opiniones, el q mas acerte a la pregunta se lleva el sistema.
+
+Inicia semestre
+1 - 1Unidad - 01/01/2020 - 30/01/2020
+
+Si 01/01/2020 = FechaActual => Activarse
+Si 30/01/2020 = FechaFinal => Desactivarse - pedir activar
+
+Material
+----------
+1 - Plumon Indeleble - Sirve para pizarras acrilicas - Tipo(Plumon)
+
+
+TipoMaterial
+--------------
+1 - Plumon
+2 - Motas 
+3 - Recargas
+4 - Otros 
