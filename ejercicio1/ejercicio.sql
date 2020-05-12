@@ -5,9 +5,7 @@ BEGIN
 	DECLARE mensajeBotonEntrega VARCHAR(10);
     
     #--Para verificar  estado semestre
-    SET cantidadSemestreActivo = (SELECT COUNT(id) 
-					FROM semestreacademico 
-					WHERE CURDATE()>=Fecha_Inicio AND CURDATE()<=Fecha_Fin);
+    SET cantidadSemestreActivo = (SELECT COUNT(id) FROM semestreacademico WHERE CURDATE()>=Fecha_Inicio AND CURDATE()<=Fecha_Fin);
 	
     IF cantidadSemestreActivo > 0 THEN
 		SET mensajeBotonEntrega = 'Boton entrega activo - registre entrega';
